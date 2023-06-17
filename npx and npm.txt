@@ -1,0 +1,4 @@
+1. npx is the npm package runner and gets installed in node js
+2. we can create a react app using both npx create-react-app and npm install create-react-app -g 
+3. But npx create-react-app is preferred because with npm install create-react-app package need to installed globally and need to be maintained but with npx it creates a react app
+ at run time and no need to install at our end. So npx is preferred.

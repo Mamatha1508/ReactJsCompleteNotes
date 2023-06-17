@@ -1,0 +1,7 @@
+1. this is a keyword in javascript which refers to the object.
+2. this inside a function is window object.
+3. this inside a function in strict mode is undefined hence in React class component inside a function this is undefined, that's why we bind the function in constructor 
+   in React class component.
+4. In a constructor function an object is created  by using new Keyword, hence inside function, this refers to the object that is created on the constructior fn using new keyword.
+5. Inside a class this refers to the object that is created on the class.
+6. Arrow function doesn't have this associated with it.

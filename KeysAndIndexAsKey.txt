@@ -1,0 +1,18 @@
+1. Key is the unique value added to each value in the list to uniquely identify it.
+2. It is helpful because key keeps a track of each value that is associated to it and whenever there is a change in the list, instead of updating the whole list,it updates only the new value
+   as it maintains the track of existing values.
+   ex: <li>m1</li>
+        <li>m2</li>
+        Now we want to add a value at the end of this list.Now the updated list will be like <li>m1</li>
+                                                                                             <li>m2</li>
+                                                                                             <li>m3</li>
+        Here React checks 1st 2 values and as they are in the intended position, it inserts the new value at the end.
+        Now suppose if a value to be inserted at the top, then React checks if the new value = existing value and as they differs, Reach changes the whole list instead of just inserting at
+        1st position.Inorder to overcome this situation we use keys where key is a unique value associated to each value of the list and whenever any change occurs then it checks for only
+        newly added value.
+        For ex: <li key="1">m1</li>
+                <li key="2">m2</li>
+                Now if we want to insert anything at top then React gives new key to the new value and checks if key 1 and 2 already have the values, it remains them as is and adds new value
+                at the top.This increases the performance of the application as more operations are not performed.
+3. We should not use index as key because whenver the list is changing it causes pblms 
+    For ex: 

@@ -1,0 +1,6 @@
+1. Refer to JSX.png for defn
+2. JSX is not necessity in React but if JSX is nit used then we need to use React.createElement method for returnin the data from the component which is very complex.
+3. In the components if we observe we are not using React anywhere but we are importing it, it is bcz JSX in turn converts to React.createElement and hence importing React is required.
+4. React.createElement takes 3 parameters : 1. the html tag 2. the attributes associated with it in object format (for ex: {id: 'tempId' , className : 'tempclass'}) 3. 3rd parameter
+   takes the content to be added in the tag but if te tag has a tag internally then the 3rd parameter again will be React.createElement(with those 3 parameters)
+5. Using React.createElement gets complicated when there are multiple tags associatec with it and hence JSX is simple and clean to use.

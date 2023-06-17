@@ -1,0 +1,3 @@
+1. Functioal components are the javascript functions which optionally takes props as parameters and returns JSX.
+2. Class components are ES6 classes which optionally takes props as parameter and also maintains state in each component and returns JSX
+

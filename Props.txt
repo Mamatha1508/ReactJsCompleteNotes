@@ -1,0 +1,6 @@
+1. Props are the properties that are passed to the components which adds the dynamic natire to the component
+2. props are immutable i.e., they can't be modified inside the component
+3. Props are declared as attributes on the component for ex: name="" etc..
+4. Props are passed similarly for both functional and class components but for functional components inside it is taken as parameter and accessed as props.name etc.
+5. In class components they can directly be accessed as this.props.name etc..
+6. If anything is added as children like <props4>abcd </props4> , this abcd is accessed as props.children in the component.
